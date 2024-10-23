@@ -1,0 +1,93 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-container {
+  margin: 50px auto;
+  padding: 20px;
+  max-width: 400px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form input, form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Dashboard */
+.dashboard {
+  padding: 20px;
+}
+
+.categories ul {
+  list-style-type: none;
+}
+
+.categories ul li {
+  padding: 5px;
+  background-color: #f0f0f0;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.product-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100px;
+}
+
+.product-card button {
+  margin-top: 10px;
+}
