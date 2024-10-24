@@ -10,7 +10,7 @@ const SignUp = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Perform sign-up logic here
-    alert('Sign Up Successful! Name: ${name}, Email: ${email}');
+    alert(`Sign Up Successful! Name: ${name}, Email: ${email}`); // Corrected here with backticks
     navigate('/login');
   };
 
