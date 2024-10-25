@@ -3,7 +3,7 @@ FROM node:alpine
 # Use Node.js version 18 or higher
 
 # Set the working directory inside the container
-WORKDIR /user/src/app
+WORKDIR /src/app
 
 # Copy package.json and package-lock.json before other files
 COPY package*.json ./
