@@ -32,7 +32,7 @@ pipeline {
 
         stage('Run Docker Container') {
             steps {
-                bat 'docker run -d -p 80:80 --name shopping-website shopping-weather:latest'
+                bat 'docker run -d -p 3000:3000 --name shopping-website shopping-weather:latest'
             }
         }
     }
